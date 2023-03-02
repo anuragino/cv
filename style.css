@@ -1,0 +1,49 @@
+/* CSS syntax:-   
+    selector{
+        Property : value;
+    }
+*/
+
+
+/*******************Tag Selector*******************/
+body {
+    background-color: #eaf6f6;   
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 7px;
+    width: 7%;
+}
+h1{
+    color: rgb(34, 134, 106);   
+}
+h3{
+    color: #66bfbf;
+}
+
+
+/*******************Class Selector*******************/
+/*  we can use many class in one tag 
+    there can be many tag associated with 1 class
+*/ 
+
+.A101{
+    color: rgb(46, 23, 23);
+}
+
+.circular{
+    border-radius: 100%;
+    height: 270px;
+}
+
+
+/*******************Id Selector*******************/
+/*  there is always unique i.e. 1 id belong to the whole code 
+    hover is a psedu class access by : 
+*/
+
+#Anu:hover{
+    color: black;
+}
